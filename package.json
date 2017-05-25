@@ -1,0 +1,15 @@
+{
+  "name": "chatBot",
+  "version": "0.0.1",
+  "author": "Atomox <atomox@gmail.com>",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "request": "^2.81.0"
+  }
+}
