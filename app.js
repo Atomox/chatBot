@@ -51,9 +51,8 @@ app.post('/event-api', function(req, res) {
 	}
 	else {
 		if (slackAuth.tokenVerify(req,res) === true) {
-			console.log(' > Normal event API POST. ', req.body);
 			// Acknowledge we received this request.
-//			res.send('We got it!');
+			res.send('We got it!');
 
 			console.log(' > Parsing API....');
 			slackApi.parseApi(req.body, res);
